@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Number Guessing</title>
+    <link rel="stylesheet" href="guess.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="bg-body-secondary p-3 d-flex justify-content-between align-items-center">
+            <button class="btn btn-secondary" id="again">Play Again!</button>
+            <span class="ms-5"><b>Select Between 1 and 20</b></span>
+        </header>
+        <h1 class="text-center">Guess My Number!</h1>
+        <div class="my-5 position-relative" id="valueDiv">
+            <div class="bg-black text-light position-absolute" id="value">?</div>
+        </div>
+        <div class="d-flex justify-content-around">
+            <section class="d-flex flex-column justify-content-evenly align-items-center">
+                <input type="number" name="" id="inputGuess" class="w-75 h-50 ps-5 fs-5">
+                <button class="btn btn-outline-dark w-50" id="check">Check</button>
+            </section>
+            <section class="d-flex flex-column justify-content-evenly">
+                <h3 id="message">Start Guessing...</h3>
+                <h5>Score:   <span id="score">20</span></h5>
+                <h5>HighScore:   <span id="highscore">0</span></h5>
+            </section>
+        </div>
+        
+    </div>
+    <script src="guess.js"></script>
+</body>
+
+</html>

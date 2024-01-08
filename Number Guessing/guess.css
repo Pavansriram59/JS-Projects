@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#valueDiv{
+    height: 100px;
+}
+#value{
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 100px;
+    left:44%;
+}
+
