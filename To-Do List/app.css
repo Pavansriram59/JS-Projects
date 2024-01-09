@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Lato:wght@300;400&family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+body{
+    background-color: #F0ECE5;
+}
+.section{
+    background-color: #B6BBC4;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 400px;
+    max-width: 500px;
+    height: max-content;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#F0ECE5;
+    border-radius: 30px;
+}
+ul li{
+    list-style: none;
+    user-select: none;
+    cursor: pointer;
+}
+ul li span{
+    margin-left: 250px;
+    font-weight: bold;
+    font-size: larger;    
+}
+.checked{
+    color: lightslategray;
+    text-decoration: line-through;
+}
