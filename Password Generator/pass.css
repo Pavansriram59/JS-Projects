@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Lato:wght@300;400&family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #092635;
+}
+.container-fluid{
+    padding: 90px 0 0 80px;
+}
+.passwordBox{
+    width: 40%;
+    height: 50px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+i.fa-copy{
+    color: #092635;
+    font-size: 30px;
+    cursor: pointer;
+}
+button{
+    width: 200px;
+    border: none;
+    padding: 8px;
+    background-color: #005B41;
+    color: whitesmoke;
+}
+hr{
+    width: 40%;
+    height: 5px;
+    background-color: #005B41;
+    font-weight: bolder;
+}
+input{
+    outline: none;
+    border: none;
+    background: transparent;
+}
